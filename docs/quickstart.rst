@@ -180,7 +180,7 @@ Examples:
 ``./manage.py invalidate_cachalot your_app auth.User``
     Invalidates all models from the 'your_app' application, but also
     the ``User`` model from the 'auth' application.
-``./manage.py invalidate_cachalot -c redis -p postgresql``
+``./manage.py invalidate_cachalot -c redis -d postgresql``
     Invalidates all models,
     but only for the database configured with the 'postgresql' alias,
     and only for the cache configured with the 'redis' alias.
